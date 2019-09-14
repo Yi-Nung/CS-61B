@@ -1,0 +1,63 @@
+ All questions are optional, though try to answer at least 4. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: The wrapIndex method “(index + items.length) % items.length” would have made my solution better. Also, using a for loop with the get method instead of arraycopy function for the resize method. 
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: I used private helper method.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: I used casting to calculate size/length < 0.25, while I should have just used size < length * 0.25
+
+Q: What did you learn by talking to your partner about writing ArrayDeque?
+
+A: We have very different solutions. She used a for loop instead of arraycopy, but we all have the correct implementation.
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: I wish I knew about the resize method more.
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A: I would write the resize method differently. I would use for loop instead of arraycopy.
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: Instead of putting the prev and next as argument to the instantiation of a Node instance, I should have just set them to instance variable.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: I included documentation for every method.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: I copied the constructor implementation instead of using this().
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque?
+
+A: The circular deque implementation is kind of hard to understand.
+
+Q: What do you wish you would have known before writing LinkedListDeque, if anything?
+
+A: I wish to we had more practice on sentinels.
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A: I would try using the oldBack and newBack idea.
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: Yes. Maybe ask more specific questions on the peer review process.

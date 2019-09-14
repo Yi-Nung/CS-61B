@@ -1,0 +1,7 @@
+InsertInOrderSpeedTest:
+When N = 1000000,
+ULLMap doesn’t work (Stack Overflow),
+MyHashMap took 2.47 sec,
+Java’s Built-in HashMap took 0.47 sec
+
+I think it would be better to use a BSTMap/TreeMap instead of a HashMap when we care a lot about the ordering of the entries.
